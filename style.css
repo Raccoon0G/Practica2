@@ -36,3 +36,16 @@ p{
     background: skyblue;
 }
 
+
+/* Regla con especificidad 0.1.0.0 */
+#unique-product-2{
+    background: white;
+}
+
+li{
+    background: violet !important;
+}
+
+.wrapper-card p{
+    background:black;
+}
