@@ -1,3 +1,4 @@
+/*
 .tag_product{
     color: red;
 }
@@ -10,3 +11,28 @@
 .wrapper-card{
     color: yellow;
 }
+*/
+/*1.Selector Universal. */
+/* 0.0.0.0*/
+*{
+    background: red;
+}
+
+/*2.Selector por elemento. */
+/* 0.0.0.1*/
+p{
+    background: yellow;
+}
+
+/*3.Selector por clase. */
+/* 0.0.1.0*/
+.product_descripction{
+    background: pink;
+}
+
+/*4.Selector por id. */
+/* 0.1.0.0*/
+#unique-description-1{
+    background: skyblue;
+}
+
